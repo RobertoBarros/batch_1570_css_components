@@ -1,0 +1,28 @@
+.flexbox {
+  background-color: rgb(190, 190, 153);
+  height: 600px;
+  border: 1px black solid;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: start;
+  flex-direction: row;
+}
+
+.item {
+  background-color: brown;
+  height: 100px;
+  /* width: 150px; */
+  border: 1px black solid;
+}
+
+.item1 {
+  flex-grow: 0.6;
+}
+
+.item2 {
+  flex-grow: 0.3;
+}
+
+.item3 {
+  flex-grow: 0.1;
+}
